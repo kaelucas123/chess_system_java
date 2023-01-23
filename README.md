@@ -10,3 +10,14 @@ Esse projeto serviu para me aprofundar ainda mais na linguagem Java. Durante a p
  - #Construtores e sobrecarga
 
 _____________________________________________________________________________________________________________________________________________________
+
+# Complete chess project, using pure Java - with Professor Nélio Alves.
+
+This project helped me to go deeper even more on Java language. During production, I've used all concepts of OOP(Object-Oriented Programming).
+
+##List of main aborted topics:
+ - #OOP pillars (Inheritance, Polymorphism, Encapsulation and Abstraction)
+ - #Repeating structures.
+ - #Exceptions
+ - #Conditional structures
+ - #Constructors and overloads
