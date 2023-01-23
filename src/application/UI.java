@@ -51,7 +51,16 @@ public class UI {
         printCapturedPieces(captured);
         System.out.println();
         System.out.println("Turn : " + chessMatch.getTurn());
-        System.out.println("Waiting player: " + chessMatch.getCurrentPlayer());
+        String colorToPrint = "";
+        System.out.print("Waiting player: ");
+        if(chessMatch.getCurrentPlayer() == Color.BLACK){
+            System.out.print(ANSI_YELLOW);
+        }
+        System.out.print(chessMatch.getCurrentPlayer());
+        System.out.print(ANSI_RESET);
+        if(chessMatch.getCheck()){
+            System.out.println("\nCheck!");
+        }
     }
     public static void printBoard(ChessPiece[][] pieces) {
         for (int i = 0; i < pieces.length; i++) {
